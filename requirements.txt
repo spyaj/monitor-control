@@ -1,0 +1,2 @@
+# Runtime GUI bindings are expected from system packages (python3-gobject, gtk4, libadwaita).
+# Keep this file empty for now to avoid pip source builds for PyGObject.

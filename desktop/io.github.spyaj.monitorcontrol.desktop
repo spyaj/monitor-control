@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Name=Monitor Control
+Comment=Control external monitors with DDC/CI
+Exec=monitor-control
+Icon=io.github.spyaj.monitorcontrol
+Terminal=false
+Categories=Settings;GNOME;GTK;
+StartupNotify=true
+
