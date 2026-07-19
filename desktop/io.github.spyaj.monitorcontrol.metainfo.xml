@@ -15,18 +15,20 @@
   
   <url type="homepage">https://github.com/spyaj/monitor-control</url>
 
-<screenshots>
-  <screenshot type="default">
-    <caption>Main brightness and contrast controls</caption>
-    <image>https://github.com/spyaj/monitor-control/raw/main/screenshots/BrightnessSettings_v2.png</image>  </screenshot>
-  <screenshot>
-    <caption>Display information</caption>
-    <image>https://github.com/spyaj/monitor-control/raw/main/screenshots/DisplayInfo_v2.png</image>
-  <screenshot>
-    <caption>Volume control</caption>
-    <image>https://github.com/spyaj/monitor-control/raw/main/screenshots/Volume_v2.png</image>
-  </screenshot>
-</screenshots>
+  <screenshots>
+    <screenshot type="default">
+      <caption>Main brightness and contrast controls</caption>
+      <image>https://github.com/spyaj/monitor-control/raw/main/screenshots/BrightnessSettings_v2.png</image>
+    </screenshot>
+    <screenshot>
+      <caption>Display information</caption>
+      <image>https://github.com/spyaj/monitor-control/raw/main/screenshots/DisplayInfo_v2.png</image>
+    </screenshot>
+    <screenshot>
+      <caption>Volume control</caption>
+      <image>https://github.com/spyaj/monitor-control/raw/main/screenshots/Volume_v2.png</image>
+    </screenshot>
+  </screenshots>
   
   <releases>
     <release version="0.1.0" date="2026-07-19"/>
