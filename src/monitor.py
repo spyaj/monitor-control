@@ -99,7 +99,8 @@ class DdcutilBackend(MonitorBackend):
             return GLib.SOURCE_REMOVE
 
         args, callback = self._command_queue.popleft()
-        command = [self._binary, *args]
+        # Prepend flatpak-spawn and --host to the command list
+        command = ["flatpak-spawn", "--host", self._binary, *args] 
         self._logger.debug("Running command: %s", " ".join(command))
         self._command_running = True
         try:
