@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop-application">
+  <id>io.github.spyaj.monitorcontrol</id>
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>GPL-3.0-or-later</project_license>
+  <name>Monitor Control</name>
+  <summary>Control external monitors via DDC/CI</summary>
+  
+  <description>
+    <p>Monitor Control is a modern GNOME application for controlling external monitors using ddcutil. Adjust brightness, contrast, and other settings directly from your desktop.</p>
+  </description>
+  
+  <launchable type="desktop-id">io.github.spyaj.monitorcontrol.desktop</launchable>
+  <developer_name>Pramod Joshi</developer_name>
+  
+  <url type="homepage">https://github.com/spyaj/monitor-control</url>
+
+  <screenshots>
+    <screenshot type="default">
+      <caption>Main brightness and contrast controls</caption>
+      <image width="624" height="400">https://github.com/spyaj/monitor-control/raw/main/screenshots/BrightnessSettings.png</image>
+    </screenshot>
+    <screenshot>
+      <caption>Display information</caption>
+      <image width="624" height="400">https://github.com/spyaj/monitor-control/raw/main/screenshots/DisplayInfo.png</image>
+    </screenshot>
+    <screenshot>
+      <caption>Volume control</caption>
+      <image width="624" height="400">https://github.com/spyaj/monitor-control/raw/main/screenshots/Volume.png</image>
+    </screenshot>
+  </screenshots>
+  
+  <releases>
+    <release version="0.1.0" date="2026-07-19"/>
+  </releases>
+  
+  <content_rating type="oars-1.1" />
+</component>
